@@ -336,7 +336,7 @@ export default function Home() {
 
                   <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm leading-7 text-neutral-400">
                     Enter a county and state to compare the overall heat danger
-                    score with the forecast's similarity to real past heat emergencies.
+                    score with the forecast&apos;s similarity to real past heat emergencies.
                   </div>
 
                   {error ? (
@@ -665,7 +665,7 @@ export default function Home() {
                     {data.ml_model_name || "N/A"}
                   </div>
                   <div className="mt-3 text-sm leading-7 text-neutral-300">
-                    The emergency pattern trigger turns on when a day's historical
+                    The emergency pattern trigger turns on when a day&apos;s historical
                     event match rises above the current trigger level of{" "}
                     <span className="font-semibold text-white">
                       {data.ml_threshold !== null && data.ml_threshold !== undefined
